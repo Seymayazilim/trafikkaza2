@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>admin sayfası</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="adminpanel.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body id="body">
+
+<nav class="navbar navbar-inverse visible-xs" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar">AAAAA</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Dashboard</a></li>
+        <li><a href="#">Age</a></li>
+        <li><a href="#">Gender</a></li>
+        <li><a href="#">Geo</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav hidden-xs">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRax82KYMJGqLDnM_5C5-4YAzafZZs0ZkrB-g&usqp=CAU" alt="W3Schools.com" style="width: 260px; height:142px;">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active" ><a href="#section1"> ADMİN YÖNETİM PANELİ</a></li>
+        <li class="btn btn-default btn-sm"><a href="#section2"><span class="glyphicon glyphicon-home"></span> ANASAYFA</a></li>
+        <li class="btn btn-default btn-sm" ><a href="#section3"><span class="glyphicon glyphicon-map-marker"></span> İLÇELER</a></li>
+        <li class="btn btn-default btn-sm" ><a href="#section3"><span class="glyphicon glyphicon-bed"></span> KAZALAR</a></li>
+        <li class="btn btn-default btn-sm" ><a href="#section3"><span class="glyphicon glyphicon-list"></span>RAPORLAR</a></li>
+        <li class="btn btn-default btn-sm" ><a href="#section3"><span class="glyphicon glyphicon-cog"></span> AYARLAR</a></li>
+        <li class="btn btn-default btn-sm" ><a href="#section3"><span class="glyphicon glyphicon-signal"></span> İSTATİSTİK</a></li>
+        <li class="btn btn-default btn-sm" ><a href="#section3"><span class="glyphicon glyphicon-off"></span> ÇIKIŞ</a></li>
+
+      </ul><br>
+    </div>
+    <br> 
+    
+    <div class="col-sm-9">
+      <div class="well">
+        <h4>SON KAZALAR</h4>
+        <p>  Elazığ'da bir ay içerisinde 277 trafik kazası meydana geldi.1 yılda 2 bin 662 kaza meydana gelirken bu kazalarda 12 kişi öldü, bin 722 kişi de yaralandı.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>ALKOL NEDENLİ</h4>
+            <p>%40 <iframe src="https://www.caginpolisi.com.tr/eski_sitemiz/117/7-8-9-10-11-12_dosyalar/image021.png" frameborder="0" width="230"></iframe>   </p> 
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="well">
+            <h4>AŞIRI HIZ</h4>
+            <p>%20   <iframe src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmFaihA07qhzHuvIYJzO0T6VZa23epMG2qrA&usqp=CAU" frameborder="0"></iframe> </p> 
+          </div>
+        </div>
+        <div class="col-sm-0">
+          <div class="well">
+            <h4>HAVA DURUMU</h4>
+            <p>%10 <iframe src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLRM9_YuB8uw6e8Z9GtGiesuSVKnEleNz0fQ&usqp=CAU" frameborder="0"></iframe>  </p> 
+          </div>
+        </div>
+        
+    
+
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="well">
+            <p>KAZA YERİ KONUMU HARİTA</p> 
+            <p><iframe src="file:///C:/Users/Packard%20bell/reacttasarm/src/components/harita.html" frameborder="0" width="906" height="300" ></iframe></p> 
+            <p></p> 
+          </div>
+        </div>
+      
+       
+  </div>
+</div>
+
+</body>
+</html>

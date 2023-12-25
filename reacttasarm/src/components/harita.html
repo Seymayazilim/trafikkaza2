@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elazığ Haritası</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #harita {
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="harita"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var harita = L.map('harita').setView([38.6769, 39.2208], 10);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(harita);
+
+            var ilceler = [
+                { isim: 'Merkez', coordinates: [38.6769, 39.2208] },
+                { isim: 'Palu', coordinates: [38.9414, 39.5826] },
+                // Diğer ilçeleri ekleyin...
+            ];
+
+            ilceler.forEach(function (ilce) {
+                var marker = L.marker(ilce.coordinates).addTo(harita);
+                marker.bindTooltip(ilce.isim, { permanent: true, direction: 'right' });
+            });
+        });
+    </script>
+</body>
+</html>
+
+

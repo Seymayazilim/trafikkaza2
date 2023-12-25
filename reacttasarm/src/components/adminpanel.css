@@ -1,0 +1,31 @@
+#bir{
+    color: black;
+    background-color: gray;
+}
+.col-sm-4{
+    width: 1020px;
+    height: 400px;
+ float: left;
+    margin-top: 0px;
+    margin-left: 0px; 
+}
+.col-sm-5{
+    width: 200PX;
+}
+.col-sm-3{
+width: 290px;
+
+}
+.col-sm-2{
+    width: 360px;
+}
+#body{
+    background-color: black;
+  
+}
+.col-sm-0{
+    margin-left: 16px;
+}
+.container-fluid{
+    margin-top: 36px;
+}

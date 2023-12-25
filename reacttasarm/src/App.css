@@ -1,0 +1,171 @@
+.id1{
+    width: 60%;
+    height: 260px;
+    background-color: black;
+    border-radius: 6px;
+    background-color: rgba(243, 243, 167, 0.5);
+    margin-left: 260px;
+  
+   
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+   border-radius: 40px;
+}
+.bg-body-tertiary{
+    background-color: #ffff8d;
+}
+.id2{
+margin-top: 60px;
+width: 400px;
+height: 240px;
+border-radius: 12px;
+margin-bottom: 60px;
+}
+
+
+.cards{
+    margin-top: 0px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+  margin-bottom: 24px;
+    
+    
+}
+.card1{
+    margin-right: 36px;
+    margin-left: 48px;
+    background-color:#f8efeb;
+    border-radius: 2px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-color: whitesmoke;
+    border-width: 24px;
+  
+}
+.card2{
+    margin-right: 36px;
+    background-color: #aeede7;
+    border-radius: 2px;
+    margin-top: 24px;
+  border-color: whitesmoke;
+  border-width: 24px;
+
+    
+}
+.card3{
+    margin-right: 48px;
+    background-color:#e2e2e2;
+    border-radius: 2px;
+    margin-top: 24px;
+    border-color: transparent;
+    border-color: whitesmoke;
+    border-width: 24px;
+      
+  
+  
+}
+.body{
+    background-color: white;
+ 
+    
+}
+.c1img{
+    height:260px;
+}
+.c3img{
+    height: 260px;
+}
+
+    
+
+
+
+.baslik{
+    margin-left: 300px;
+    
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.harita{
+    height: 460px;
+    width: 100%;
+    border-bottom: #fffba2;
+    border-width: 120px;
+    background-color: black;
+  
+   
+}
+.butons{
+padding-left: 60px;
+width: 1260px;
+height: 400px;
+
+
+}
+.but1{
+    color: black;
+    background-color: red;
+ 
+}
+#Warning{
+    color: black;
+    background-color: #fffa83;
+}
+#bg-vertical-dropdown-1{
+    background-color: #93d3ff;
+    color: black;
+}
+#bg-vertical-dropdown-2{
+    background-color: #4f8938;
+    color: black;
+    
+}
+#bg-vertical-dropdown-3{
+    background-color: #f47060;
+    color: black;
+    
+}
+#bg-vertical-dropdown-4{
+    background-color: #ffc13c;
+    color: black;
+    
+}
+#bg-vertical-dropdown-5{
+    color: black;
+    
+}
+#bg-vertical-dropdown-6{
+    background-color: #fffba8;
+    color: black;
+    
+}
+#bg-vertical-dropdown-7{
+    background-color: #9effef;
+    color: black;
+    
+}
+#bg-vertical-dropdown-8{
+    background-color: #6ff465;
+    color: black;
+    
+}
+#bg-vertical-dropdown-9{
+    background-color: #cbdeed;
+    color: black;
+    
+}
+#bg-vertical-dropdown-10{
+    background-color: #ec5d59;
+    color: black;
+    
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMİN Gİ.</title>
+    <link rel="stylesheet" href="admingiris.css">
+<script>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  let y = document.forms["myForm"]["fnamee"].value;
+
+  if (x != "admin" || y!="1234" ) {
+    alert(" kullanıcı adı veya şifre yanlış");
+    
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+
+<div class="signup-form">
+<form name="myForm" action="file:///C:/Users/Packard%20bell/reacttasarm/src/components/admin.html" onsubmit="return validateForm()" method="post">
+    <h1>ADMİN GİRİŞİ</h1>
+   <input type="text" placeholder="Kullanici Adi" name="fname" class="txt">
+  <input type="text"  placeholder ="Şifre" name="fnamee" class="txt">
+  <input type="submit" value="Giriş Yap" class="signup-btn">
+  <a href="#">Şifremi Unuttum</a> 
+
+</form>
+</div>
+
+</body>
+</html>
